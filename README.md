@@ -96,7 +96,7 @@ Step14. click on debug and simulate using simulation as shown below
   
 
 ## STM 32 CUBE PROGRAM :
-
+```C
 #include "main.h"
 TIM_HandleTypeDef htim2;
 void SystemClock_Config(void);
@@ -243,7 +243,7 @@ TON =
 TOFF=
 TOTAL TIME = 
 FREQUENCY = 1/(TOTAL TIME)
-
+```
 
 ## Result :
 A PWM Signal is generated using the following frequency and various duty cycles are simulated 
